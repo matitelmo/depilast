@@ -1,0 +1,13 @@
+{
+  "name": "multi-page-navigation",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp -r *.html *.css *.js dist/",
+    "preview": "cd dist && python3 -m http.server 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
